@@ -1,36 +1,63 @@
-<h1 align="center">Suzume Fan Page 🧬</h1>
+# 🌸 Suzume — Movie Fan Page
 
-> The journey to close the doors unlocks the heart, revealing hidden strengths and boundless hope.
+<p align="center">
+  <img src="https://files.catbox.moe/jsd0b6.jpg" alt="Suzume Fan Page Banner" width="100%">
+</p>
 
-![Suzume](./resources/img/suzume2.png)
-
-Welcome to this special project inspired by the mesmerizing world of *Suzume*. This repository isn't just code it's a gateway to adventure, stories, and the spirit of exploration.
-
-### About 🌏
-This project captures the essence of *Suzume* in HD, immersing you in visuals, concepts, and functionality designed with the same vibrancy and depth. Explore at your own pace and feel the echo of Suzume’s journey through every detail and line of code.
-
-⚠️ **Warning**: HD quality videos have been included for the full experience, so if you're low on data, you might want to wait until you're connected to Wi-Fi!
-
-### License 📜
-This project is open-sourced for all explorers and admirers of *Suzume*. Feel free to use, modify, and share it within the community.
+A cinematic, emotional, and fan-made website inspired by the anime movie **Suzume**.  
+This project is created as a tribute to the themes of doors, memories, healing, and hope, with a soft and dreamy visual experience.
 
 ---
 
-<h1 align="center">Suzume Movie Inspired Journey🚪</h1>
+## 🌌 About the Project
+
+This website is a **fan-made tribute** inspired by the movie *Suzume*.  
+It focuses on:
+- Emotional storytelling  
+- Dreamy & cinematic UI  
+- Soft animations and smooth scrolling  
+- Clean, minimal, and aesthetic design  
+
+Built purely with front-end technologies and love for anime ✨
+
+---
+
+## 🚀 Live Website
 
 <p align="center">
-  <b>Crafted with inspiration and wonder by <a href="https://github.com/MysticalDevs">Murali</a></b><br>
-  <i>"A journey through code, where every line speaks to the heart."</i>
-</p>
-
-
-
-<p align="center">
-  <a href="https://MysticalDevs.github.io/Suzume">
-    <img src="https://img.shields.io/badge/Visit%20the%20Site-ff69b4?style=for-the-badge&logo=github">
+  <a href="https://itz-murali.github.io/Suzume/" target="_blank">
+    <img src="https://img.shields.io/badge/Visit%20Website-Suzume%20Fan%20Page-ffb6c1?style=for-the-badge&logo=google-chrome&logoColor=white">
   </a>
 </p>
 
 ---
 
-**Developer :** *Murali*
+## 👤 Developer
+
+<p align="center">
+  <a href="https://github.com/itz-murali" target="_blank">
+    <img src="https://img.shields.io/badge/Developer-Murali-24292e?style=for-the-badge&logo=github&logoColor=white">
+  </a>
+</p>
+
+---
+
+## 🛠️ Tech Stack
+
+- HTML5  
+- CSS3  
+- JavaScript  
+- Smooth animations & responsive layout  
+
+No frameworks — clean and lightweight.
+
+---
+
+## ⚠️ Disclaimer
+
+This is a **fan-made website** created for educational and non-commercial purposes.  
+All rights related to characters, visuals, and story belong to the original creators of *Suzume*.
+
+---
+
+⭐ If you like this project, consider giving it a star!
