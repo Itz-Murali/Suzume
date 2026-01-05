@@ -1,0 +1,1616 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Suzume no Tojimari - A fan tribute to Makoto Shinkai's masterpiece about a girl's journey to close the doors and protect the world.">
+    <meta name="keywords" content="Suzume, Suzume no Tojimari, Makoto Shinkai, anime, Japanese animation, すずめの戸締まり">
+    <meta name="author" content="Fan Tribute">
+    <meta name="robots" content="index, follow">
+    <meta name="theme-color" content="#1e1b4b">
+    
+    
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="">
+    <meta property="og:title" content="Suzume no Tojimari - すずめの戸締まり">
+    <meta property="og:description" content="A fan tribute to Makoto Shinkai's masterpiece about a girl's journey to close the doors and protect the world.">
+    <meta property="og:image" content="https://files.catbox.moe/1kpwar.png">
+    
+    
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="">
+    <meta property="twitter:title" content="Suzume no Tojimari - すずめの戸締まり">
+    <meta property="twitter:description" content="A fan tribute to Makoto Shinkai's masterpiece about a girl's journey to close the doors and protect the world.">
+    <meta property="twitter:image" content="https://files.catbox.moe/1kpwar.png">
+    
+    <link rel="icon" type="image/jpg" href="https://files.catbox.moe/jsd0b6.jpg">
+    <link rel="canonical" href="">
+    
+    <title>Suzume no Tojimari - すずめの戸締まり</title>
+    
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700&family=Cormorant:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Josefin+Sans:wght@300;400;500;600&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Inter:wght@300;400;500;600&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&display=swap" rel="stylesheet">
+    
+    <style>
+        
+        :root {
+            --background: hsl(210, 50%, 98%);
+            --foreground: hsl(220, 30%, 20%);
+            --card: hsl(210, 40%, 98%);
+            --card-foreground: hsl(220, 30%, 20%);
+            --primary: hsl(200, 80%, 55%);
+            --primary-foreground: hsl(0, 0%, 100%);
+            --secondary: hsl(270, 40%, 92%);
+            --secondary-foreground: hsl(270, 30%, 30%);
+            --muted: hsl(340, 30%, 95%);
+            --muted-foreground: hsl(220, 15%, 45%);
+            --accent: hsl(340, 60%, 85%);
+            --accent-foreground: hsl(340, 40%, 30%);
+            --golden: hsl(45, 90%, 65%);
+            --golden-foreground: hsl(45, 80%, 20%);
+            --lavender: hsl(270, 50%, 80%);
+            --lavender-foreground: hsl(270, 40%, 25%);
+            --border: hsl(210, 30%, 90%);
+            --glass-bg: hsla(210, 50%, 98%, 0.7);
+            --glass-border: hsla(210, 40%, 90%, 0.5);
+            --glass-shadow: 0 8px 32px hsla(200, 60%, 50%, 0.15);
+            --gradient-sky: linear-gradient(180deg, hsl(200, 85%, 75%) 0%, hsl(210, 70%, 85%) 50%, hsl(340, 50%, 90%) 100%);
+            --gradient-sunset: linear-gradient(135deg, hsl(340, 60%, 85%) 0%, hsl(270, 50%, 85%) 50%, hsl(200, 70%, 80%) 100%);
+            --gradient-magical: linear-gradient(180deg, hsl(270, 40%, 95%) 0%, hsl(200, 50%, 95%) 100%);
+        }
+
+        .dark {
+            --background: hsl(220, 40%, 8%);
+            --foreground: hsl(210, 40%, 95%);
+            --card: hsl(220, 35%, 12%);
+            --card-foreground: hsl(210, 40%, 95%);
+            --primary: hsl(200, 75%, 60%);
+            --primary-foreground: hsl(220, 40%, 10%);
+            --secondary: hsl(270, 30%, 20%);
+            --secondary-foreground: hsl(270, 40%, 90%);
+            --muted: hsl(220, 30%, 15%);
+            --muted-foreground: hsl(210, 20%, 65%);
+            --accent: hsl(340, 40%, 25%);
+            --accent-foreground: hsl(340, 50%, 90%);
+            --golden: hsl(45, 80%, 55%);
+            --golden-foreground: hsl(45, 90%, 95%);
+            --lavender: hsl(270, 40%, 35%);
+            --lavender-foreground: hsl(270, 50%, 90%);
+            --border: hsl(220, 30%, 20%);
+            --glass-bg: hsla(220, 40%, 12%, 0.8);
+            --glass-border: hsla(220, 30%, 25%, 0.5);
+            --glass-shadow: 0 8px 32px hsla(0, 0%, 0%, 0.3);
+            --gradient-sky: linear-gradient(180deg, hsl(220, 50%, 15%) 0%, hsl(270, 40%, 20%) 50%, hsl(340, 30%, 15%) 100%);
+            --gradient-sunset: linear-gradient(135deg, hsl(340, 40%, 20%) 0%, hsl(270, 35%, 25%) 50%, hsl(200, 50%, 20%) 100%);
+            --gradient-magical: linear-gradient(180deg, hsl(270, 30%, 15%) 0%, hsl(200, 40%, 15%) 100%);
+        }
+
+        /* Reset & Base */
+        *, *::before, *::after {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            background: var(--background);
+            color: var(--foreground);
+            line-height: 1.6;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+            overflow-x: hidden;
+        }
+
+        /* Font Classes */
+        .font-display { font-family: 'Playfair Display', serif; }
+        .font-cinzel { font-family: 'Cinzel', serif; }
+        .font-cormorant { font-family: 'Cormorant', serif; }
+        .font-josefin { font-family: 'Josefin Sans', sans-serif; }
+        .font-baskerville { font-family: 'Libre Baskerville', serif; }
+
+        /* Glass Card */
+        .glass-card {
+            background: var(--glass-bg);
+            backdrop-filter: blur(16px);
+            -webkit-backdrop-filter: blur(16px);
+            border: 1px solid var(--glass-border);
+            box-shadow: var(--glass-shadow);
+        }
+
+        /* Gradients */
+        .gradient-sky { background: var(--gradient-sky); }
+        .gradient-sunset { background: var(--gradient-sunset); }
+        .gradient-magical { background: var(--gradient-magical); }
+
+        .text-gradient {
+            background: linear-gradient(135deg, var(--primary) 0%, var(--accent) 50%, var(--lavender) 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        /* Animations */
+        @keyframes float {
+            0%, 100% { transform: translateY(0px); }
+            50% { transform: translateY(-20px); }
+        }
+
+        @keyframes fadeUp {
+            from { opacity: 0; transform: translateY(40px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        @keyframes scaleIn {
+            from { opacity: 0; transform: scale(0.9); }
+            to { opacity: 1; transform: scale(1); }
+        }
+
+        @keyframes pulse {
+            0%, 100% { opacity: 1; }
+            50% { opacity: 0.5; }
+        }
+
+        @keyframes ping {
+            75%, 100% { transform: scale(2); opacity: 0; }
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+
+        .animate-float { animation: float 6s ease-in-out infinite; }
+        .animate-float-slow { animation: float 8s ease-in-out infinite; }
+        .animate-pulse { animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite; }
+        .animate-ping { animation: ping 1s cubic-bezier(0, 0, 0.2, 1) infinite; }
+        .animate-fade-in { animation: fadeIn 0.5s ease-out forwards; }
+        .animate-scale-in { animation: scaleIn 0.6s ease-out forwards; }
+
+        /* Scrollbar */
+        ::-webkit-scrollbar { width: 8px; }
+        ::-webkit-scrollbar-track { background: var(--muted); }
+        ::-webkit-scrollbar-thumb { background: hsla(200, 80%, 55%, 0.5); border-radius: 4px; }
+        ::-webkit-scrollbar-thumb:hover { background: hsla(200, 80%, 55%, 0.7); }
+
+        /* Preloader */
+        .preloader {
+            position: fixed;
+            inset: 0;
+            z-index: 100;
+            background: linear-gradient(to bottom, hsl(222, 47%, 11%), hsl(234, 50%, 15%), hsl(222, 47%, 11%));
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            transition: opacity 0.7s ease;
+        }
+
+        .preloader.fade-out {
+            opacity: 0;
+            pointer-events: none;
+        }
+
+        .preloader-door {
+            width: 80px;
+            height: 128px;
+            border: 4px solid hsla(45, 90%, 60%, 0.6);
+            border-radius: 40px 40px 0 0;
+            position: relative;
+            margin-bottom: 2rem;
+            overflow: hidden;
+        }
+
+        .preloader-door::before {
+            content: '';
+            position: absolute;
+            inset: 0;
+            background: linear-gradient(to top, hsla(45, 90%, 60%, 0.2), transparent);
+            animation: pulse 2s ease-in-out infinite;
+        }
+
+        .preloader-door::after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 8px;
+            height: 8px;
+            background: hsl(45, 90%, 60%);
+            border-radius: 50%;
+            filter: blur(2px);
+            box-shadow: 0 0 20px 10px hsla(45, 90%, 60%, 0.4);
+        }
+
+        .preloader-title {
+            font-family: 'Cinzel', serif;
+            font-size: 1.5rem;
+            color: hsla(0, 0%, 100%, 0.9);
+            letter-spacing: 0.2em;
+            margin-bottom: 2rem;
+        }
+
+        .progress-bar {
+            width: 192px;
+            height: 4px;
+            background: hsla(0, 0%, 100%, 0.1);
+            border-radius: 9999px;
+            overflow: hidden;
+        }
+
+        .progress-fill {
+            height: 100%;
+            background: linear-gradient(to right, hsl(45, 90%, 60%), hsl(340, 60%, 70%), hsl(270, 60%, 70%));
+            border-radius: 9999px;
+            transition: width 0.3s ease-out;
+        }
+
+        .preloader-text {
+            margin-top: 1rem;
+            color: hsla(0, 0%, 100%, 0.5);
+            font-family: 'Josefin Sans', sans-serif;
+            font-size: 0.875rem;
+            letter-spacing: 0.1em;
+        }
+
+        /* Navigation */
+        nav {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            z-index: 50;
+            padding: 1.5rem 0;
+            transition: all 0.5s ease;
+        }
+
+        nav.scrolled {
+            padding: 0.75rem 0;
+        }
+
+        .nav-container {
+            max-width: 72rem;
+            margin: 0 auto;
+            padding: 0 1rem;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .nav-logo {
+            font-family: 'Playfair Display', serif;
+            font-size: 1.25rem;
+            background: linear-gradient(135deg, var(--primary), var(--accent), var(--lavender));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            cursor: pointer;
+            border: none;
+            background-color: transparent;
+        }
+
+        .nav-links {
+            display: none;
+            align-items: center;
+            gap: 2rem;
+        }
+
+        .nav-link {
+            font-size: 0.875rem;
+            color: var(--foreground);
+            opacity: 0.7;
+            text-decoration: none;
+            position: relative;
+            cursor: pointer;
+            border: none;
+            background: none;
+            transition: opacity 0.3s;
+        }
+
+        .nav-link:hover { opacity: 1; }
+
+        .nav-link::after {
+            content: '';
+            position: absolute;
+            bottom: -4px;
+            left: 0;
+            width: 0;
+            height: 2px;
+            background: var(--primary);
+            transition: width 0.3s ease;
+        }
+
+        .nav-link:hover::after { width: 100%; }
+
+        .mobile-menu-btn {
+            display: flex;
+            padding: 0.5rem;
+            color: var(--foreground);
+            opacity: 0.7;
+            background: none;
+            border: none;
+            cursor: pointer;
+        }
+
+        .mobile-menu {
+            display: none;
+            position: absolute;
+            top: 100%;
+            left: 0;
+            right: 0;
+            max-height: 0;
+            overflow: hidden;
+            opacity: 0;
+            transition: all 0.3s ease;
+        }
+
+        .mobile-menu.open {
+            max-height: 320px;
+            opacity: 1;
+        }
+
+        .mobile-menu-inner {
+            padding: 1rem;
+            display: flex;
+            flex-direction: column;
+            gap: 1rem;
+        }
+
+        .mobile-link {
+            padding: 0.5rem 0;
+            color: var(--foreground);
+            opacity: 0.7;
+            text-decoration: none;
+            text-align: left;
+            border: none;
+            background: none;
+            cursor: pointer;
+            transition: opacity 0.3s;
+        }
+
+        .mobile-link:hover { opacity: 1; }
+
+        /* Theme Toggle */
+        .theme-toggle {
+            position: relative;
+            width: 64px;
+            height: 32px;
+            border-radius: 9999px;
+            overflow: hidden;
+            border: none;
+            cursor: pointer;
+        }
+
+        .theme-toggle-track {
+            position: absolute;
+            inset: 0;
+            transition: all 0.5s;
+        }
+
+        .light .theme-toggle-track {
+            background: linear-gradient(to right, hsl(199, 89%, 70%), hsl(207, 90%, 64%), hsl(187, 85%, 64%));
+        }
+
+        .dark .theme-toggle-track {
+            background: linear-gradient(to right, hsl(238, 40%, 22%), hsl(270, 50%, 22%), hsl(215, 28%, 17%));
+        }
+
+        .theme-toggle-stars {
+            position: absolute;
+            inset: 0;
+            transition: opacity 0.5s;
+        }
+
+        .light .theme-toggle-stars { opacity: 0; }
+        .dark .theme-toggle-stars { opacity: 1; }
+
+        .theme-toggle-clouds {
+            position: absolute;
+            inset: 0;
+            transition: opacity 0.5s;
+        }
+
+        .light .theme-toggle-clouds { opacity: 1; }
+        .dark .theme-toggle-clouds { opacity: 0; }
+
+        .theme-toggle-circle {
+            position: absolute;
+            top: 4px;
+            width: 24px;
+            height: 24px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: all 0.5s ease-out;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+        }
+
+        .light .theme-toggle-circle {
+            left: 4px;
+            background: linear-gradient(to bottom right, hsl(48, 89%, 70%), hsl(33, 100%, 64%), hsl(48, 96%, 53%));
+        }
+
+        .dark .theme-toggle-circle {
+            left: 36px;
+            background: linear-gradient(to bottom right, hsl(214, 32%, 91%), hsl(215, 16%, 68%));
+        }
+
+        /* Hero Section */
+        .hero {
+            position: relative;
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            overflow: hidden;
+        }
+
+        .hero-bg {
+            position: absolute;
+            inset: 0;
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+
+        .hero-overlay {
+            position: absolute;
+            inset: 0;
+            background: linear-gradient(to bottom, hsla(0, 0%, 0%, 0.3), transparent, hsla(0, 0%, 0%, 0.5));
+        }
+
+        .scroll-btn {
+            position: absolute;
+            bottom: 6rem;
+            left: 50%;
+            transform: translateX(-50%);
+            z-index: 10;
+            background: none;
+            border: none;
+            cursor: pointer;
+            animation: fadeUp 1s ease-out forwards;
+        }
+
+        .scroll-icon {
+            width: 48px;
+            height: 48px;
+            color: hsla(0, 0%, 100%, 0.8);
+            animation: float 3s ease-in-out infinite;
+            filter: drop-shadow(0 4px 6px rgba(0,0,0,0.3));
+            transition: color 0.3s;
+        }
+
+        .scroll-btn:hover .scroll-icon { color: white; }
+
+        .hero-bottom-gradient {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            height: 128px;
+            background: linear-gradient(to top, var(--background), transparent);
+        }
+
+        /* Floating Particles */
+        .particles {
+            position: absolute;
+            inset: 0;
+            overflow: hidden;
+            pointer-events: none;
+        }
+
+        .particle {
+            position: absolute;
+            border-radius: 50%;
+            animation: float 6s ease-in-out infinite;
+        }
+
+        /* Sections */
+        section {
+            padding: 6rem 1rem;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .section-container {
+            max-width: 64rem;
+            margin: 0 auto;
+        }
+
+        .section-title {
+            font-size: clamp(2rem, 5vw, 3.5rem);
+            font-weight: 600;
+            text-align: center;
+            margin-bottom: 2rem;
+        }
+
+        /* About Section */
+        .about-section { background: var(--gradient-magical); }
+
+        .about-decoration {
+            position: absolute;
+            border-radius: 50%;
+            filter: blur(48px);
+        }
+
+        .themes-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 1.5rem;
+            margin-top: 4rem;
+        }
+
+        .theme-card {
+            padding: 1.5rem;
+            border-radius: 1rem;
+            text-align: center;
+            transition: transform 0.3s;
+        }
+
+        .theme-card:hover { transform: scale(1.05); }
+
+        .theme-icon { font-size: 2rem; margin-bottom: 0.75rem; }
+        .theme-name { font-family: 'Playfair Display', serif; font-size: 1.125rem; color: var(--foreground); opacity: 0.8; }
+
+        /* Characters Section */
+        .characters-section { background: var(--background); }
+
+        .characters-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 1.5rem;
+        }
+
+        .character-card {
+            padding: 1rem;
+            border-radius: 1rem;
+            height: 100%;
+            transition: transform 0.5s;
+        }
+
+        .character-card:hover { transform: scale(1.02); }
+
+        .character-image {
+            width: 100%;
+            aspect-ratio: 3/4;
+            border-radius: 0.75rem;
+            overflow: hidden;
+            margin-bottom: 1rem;
+            cursor: pointer;
+        }
+
+        .character-image img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            transition: transform 0.5s;
+        }
+
+        .character-card:hover .character-image img { transform: scale(1.1); }
+
+        .character-name { font-family: 'Playfair Display', serif; font-size: 1.125rem; font-weight: 600; margin-bottom: 0.25rem; }
+        .character-japanese { font-family: 'Cinzel', serif; font-size: 0.875rem; color: var(--muted-foreground); margin-bottom: 0.5rem; }
+        .character-desc { font-size: 0.875rem; color: var(--foreground); opacity: 0.7; line-height: 1.6; }
+
+        /* Doors Section */
+        .doors-section { background: var(--gradient-sunset); }
+
+        .doors-timeline { position: relative; }
+
+        .door-card-wrapper { margin-bottom: 3rem; }
+
+        .door-card {
+            border-radius: 1rem;
+            overflow: hidden;
+            cursor: pointer;
+            transition: transform 0.5s;
+        }
+
+        .door-card:hover { transform: scale(1.02); }
+
+        .door-image {
+            position: relative;
+            height: 192px;
+            overflow: hidden;
+        }
+
+        .door-image img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            transition: transform 0.7s;
+        }
+
+        .door-card:hover .door-image img { transform: scale(1.1); }
+
+        .door-image-overlay {
+            position: absolute;
+            inset: 0;
+            background: linear-gradient(to top, var(--background), transparent);
+            opacity: 0.8;
+        }
+
+        .door-location {
+            position: absolute;
+            bottom: 1rem;
+            left: 1rem;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        .door-content { padding: 1.5rem; }
+
+        .door-memory { font-family: 'Josefin Sans', sans-serif; font-size: 1.125rem; color: var(--foreground); opacity: 0.8; line-height: 1.6; }
+
+        /* Gallery Section */
+        .gallery-section { background: var(--background); }
+
+        .gallery-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 1rem;
+        }
+
+        .gallery-item {
+            position: relative;
+            overflow: hidden;
+            border-radius: 1rem;
+            cursor: pointer;
+            aspect-ratio: 4/3;
+        }
+
+        .gallery-item img {
+            position: absolute;
+            inset: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            transition: transform 0.7s;
+        }
+
+        .gallery-item:hover img { transform: scale(1.1); }
+
+        .gallery-overlay {
+            position: absolute;
+            inset: 0;
+            background: transparent;
+            transition: background 0.5s;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .gallery-item:hover .gallery-overlay { background: hsla(0, 0%, 0%, 0.2); backdrop-filter: blur(2px); }
+
+        .gallery-title {
+            font-family: 'Playfair Display', serif;
+            font-size: 1.125rem;
+            color: white;
+            text-shadow: 0 2px 4px rgba(0,0,0,0.5);
+            opacity: 0;
+            transition: opacity 0.5s;
+        }
+
+        .gallery-item:hover .gallery-title { opacity: 1; }
+
+        /* Quotes Section */
+        .quotes-section {
+            background: var(--gradient-sky);
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+        }
+
+        .quotes-container { position: relative; z-index: 10; }
+
+        .quote-block {
+            text-align: center;
+            margin-bottom: 4rem;
+        }
+
+        .quote-text {
+            font-family: 'Cormorant', serif;
+            font-size: clamp(1.5rem, 4vw, 2.5rem);
+            font-style: italic;
+            color: var(--foreground);
+            opacity: 0.8;
+            line-height: 1.6;
+            position: relative;
+            padding: 0 2rem;
+        }
+
+        .quote-mark {
+            position: absolute;
+            font-size: 4rem;
+            font-family: 'Playfair Display', serif;
+            color: var(--golden);
+            opacity: 0.3;
+        }
+
+        .quote-mark.open { top: -2rem; left: 0; }
+        .quote-mark.close { bottom: -2rem; right: 0; }
+
+        .quote-author {
+            margin-top: 1.5rem;
+            font-family: 'Playfair Display', serif;
+            font-style: italic;
+            color: var(--muted-foreground);
+        }
+
+        /* Footer */
+        footer {
+            padding: 4rem 1rem;
+            background: linear-gradient(to bottom, var(--background), var(--background), hsla(200, 80%, 55%, 0.05));
+            border-top: 1px solid var(--border);
+            position: relative;
+            overflow: hidden;
+        }
+
+        .footer-container {
+            max-width: 64rem;
+            margin: 0 auto;
+            text-align: center;
+            position: relative;
+        }
+
+        .footer-door {
+            width: 48px;
+            height: 64px;
+            border: 2px solid var(--primary);
+            opacity: 0.4;
+            border-radius: 24px 24px 0 0;
+            margin: 0 auto 1.5rem;
+            position: relative;
+            background: linear-gradient(to bottom, hsla(200, 80%, 55%, 0.1), transparent);
+        }
+
+        .footer-door::after {
+            content: '';
+            position: absolute;
+            top: 50%;
+            right: 8px;
+            width: 6px;
+            height: 6px;
+            border-radius: 50%;
+            background: var(--accent);
+        }
+
+        .footer-title {
+            font-family: 'Cinzel', serif;
+            font-size: 1.875rem;
+            background: linear-gradient(to right, var(--primary), var(--accent), var(--primary));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            margin-bottom: 0.5rem;
+        }
+
+        .footer-subtitle {
+            font-family: 'Cormorant', serif;
+            font-style: italic;
+            color: var(--muted-foreground);
+            margin-bottom: 1.5rem;
+        }
+
+        .footer-divider {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 1rem;
+            margin-bottom: 1.5rem;
+        }
+
+        .footer-line {
+            height: 1px;
+            width: 64px;
+            background: linear-gradient(to right, transparent, var(--border));
+        }
+
+        .footer-heart {
+            width: 16px;
+            height: 16px;
+            color: var(--accent);
+            animation: pulse 2s ease-in-out infinite;
+        }
+
+        .footer-message {
+            font-family: 'Libre Baskerville', serif;
+            font-size: 0.875rem;
+            color: var(--muted-foreground);
+            margin-bottom: 1.5rem;
+        }
+
+        .footer-disclaimer {
+            font-family: 'Josefin Sans', sans-serif;
+            font-size: 0.75rem;
+            color: var(--muted-foreground);
+            opacity: 0.6;
+            max-width: 32rem;
+            margin: 0 auto 2rem;
+            line-height: 1.6;
+        }
+
+        .github-link {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+            padding: 0.5rem 1rem;
+            border-radius: 9999px;
+            border: 1px solid var(--border);
+            background: var(--card);
+            opacity: 0.5;
+            color: var(--muted-foreground);
+            text-decoration: none;
+            transition: all 0.3s;
+            margin-bottom: 2rem;
+        }
+
+        .github-link:hover {
+            opacity: 1;
+            background: hsla(200, 80%, 55%, 0.1);
+            border-color: var(--primary);
+            color: var(--primary);
+        }
+
+        .footer-copyright {
+            font-family: 'Josefin Sans', sans-serif;
+            font-size: 0.75rem;
+            color: var(--muted-foreground);
+            opacity: 0.4;
+            letter-spacing: 0.1em;
+        }
+
+        /* Music Button */
+        .music-btn {
+            position: fixed;
+            bottom: 1.5rem;
+            right: 1.5rem;
+            z-index: 40;
+            padding: 0.75rem;
+            border-radius: 50%;
+            border: none;
+            cursor: pointer;
+            transition: transform 0.3s;
+        }
+
+        .music-btn:hover { transform: scale(1.1); }
+
+        .music-icon { width: 20px; height: 20px; color: var(--foreground); }
+
+        /* Image Overlay */
+        .image-overlay {
+            position: fixed;
+            inset: 0;
+            z-index: 50;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: hsla(0, 0%, 0%, 0.8);
+            backdrop-filter: blur(4px);
+            animation: fadeIn 0.3s ease-out;
+            opacity: 0;
+            pointer-events: none;
+        }
+
+        .image-overlay.active {
+            opacity: 1;
+            pointer-events: all;
+        }
+
+        .overlay-close {
+            position: absolute;
+            top: 1.5rem;
+            right: 1.5rem;
+            padding: 0.5rem;
+            border-radius: 50%;
+            background: hsla(0, 0%, 100%, 0.1);
+            border: none;
+            cursor: pointer;
+            color: white;
+            transition: background 0.3s;
+        }
+
+        .overlay-close:hover { background: hsla(0, 0%, 100%, 0.2); }
+
+        .overlay-image {
+            max-width: 90vw;
+            max-height: 90vh;
+            object-fit: contain;
+            border-radius: 0.5rem;
+            box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.5);
+            animation: scaleIn 0.3s ease-out;
+        }
+
+        /* SVG Icons inline styles */
+        .icon { display: inline-block; vertical-align: middle; }
+
+        /* Responsive */
+        @media (min-width: 768px) {
+            section { padding: 8rem 1rem; }
+            .nav-links { display: flex; }
+            .mobile-menu-btn { display: none; }
+            .mobile-menu { display: none !important; }
+            .themes-grid { grid-template-columns: repeat(4, 1fr); }
+            .characters-grid { grid-template-columns: repeat(4, 1fr); }
+            .gallery-grid { grid-template-columns: repeat(3, 1fr); gap: 1.5rem; }
+        }
+
+        /* Scroll animations */
+        .scroll-animate {
+            opacity: 0;
+            transform: translateY(40px);
+            transition: all 1s ease-out;
+        }
+
+        .scroll-animate.visible {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    </style>
+</head>
+<body class="light">
+    <!-- Preloader -->
+    <div class="preloader" id="preloader">
+        <div class="particles" id="preloader-particles"></div>
+        <div class="preloader-door"></div>
+        <h1 class="preloader-title">すずめの戸締まり</h1>
+        <div class="progress-bar">
+            <div class="progress-fill" id="progress-fill" style="width: 0%"></div>
+        </div>
+        <p class="preloader-text">Opening the door...</p>
+    </div>
+
+    <!-- Main Content -->
+    <div id="main-content" style="opacity: 0; transition: opacity 0.5s;">
+        <!-- Navigation -->
+        <nav id="navigation">
+            <div class="nav-container">
+                <button class="nav-logo" onclick="scrollToTop()">すずめ</button>
+                
+                <div class="nav-links">
+                    <button class="nav-link" onclick="scrollToSection('#about')">About</button>
+                    <button class="nav-link" onclick="scrollToSection('#characters')">Characters</button>
+                    <button class="nav-link" onclick="scrollToSection('#doors')">Doors</button>
+                    <button class="nav-link" onclick="scrollToSection('#gallery')">Gallery</button>
+                    <button class="nav-link" onclick="scrollToSection('#quotes')">Quotes</button>
+                    <button class="theme-toggle" onclick="toggleTheme()" aria-label="Toggle theme">
+                        <div class="theme-toggle-track"></div>
+                        <div class="theme-toggle-stars">
+                            <div style="position: absolute; top: 4px; left: 8px; width: 4px; height: 4px; background: white; border-radius: 50%;"></div>
+                            <div style="position: absolute; top: 12px; left: 16px; width: 2px; height: 2px; background: white; border-radius: 50%; opacity: 0.7;"></div>
+                        </div>
+                        <div class="theme-toggle-clouds">
+                            <div style="position: absolute; top: 4px; right: 8px; width: 12px; height: 6px; background: white; border-radius: 9999px; opacity: 0.6; filter: blur(1px);"></div>
+                        </div>
+                        <div class="theme-toggle-circle">
+                            <svg class="icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <circle cx="12" cy="12" r="4"></circle>
+                                <path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M6.34 17.66l-1.41 1.41M19.07 4.93l-1.41 1.41"></path>
+                            </svg>
+                        </div>
+                    </button>
+                </div>
+
+                <div style="display: flex; align-items: center; gap: 1rem;" class="mobile-controls">
+                    <button class="theme-toggle" onclick="toggleTheme()" aria-label="Toggle theme" style="display: block;">
+                        <div class="theme-toggle-track"></div>
+                        <div class="theme-toggle-stars">
+                            <div style="position: absolute; top: 4px; left: 8px; width: 4px; height: 4px; background: white; border-radius: 50%;"></div>
+                        </div>
+                        <div class="theme-toggle-clouds">
+                            <div style="position: absolute; top: 4px; right: 8px; width: 12px; height: 6px; background: white; border-radius: 9999px; opacity: 0.6;"></div>
+                        </div>
+                        <div class="theme-toggle-circle">
+                            <svg class="icon sun-icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="4"></circle><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M6.34 17.66l-1.41 1.41M19.07 4.93l-1.41 1.41"></path></svg>
+                            <svg class="icon moon-icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="display: none;"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg>
+                        </div>
+                    </button>
+                    <button class="mobile-menu-btn" onclick="toggleMobileMenu()" aria-label="Toggle menu">
+                        <svg id="menu-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <line x1="4" x2="20" y1="12" y2="12"></line>
+                            <line x1="4" x2="20" y1="6" y2="6"></line>
+                            <line x1="4" x2="20" y1="18" y2="18"></line>
+                        </svg>
+                        <svg id="close-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="display: none;">
+                            <path d="M18 6 6 18"></path>
+                            <path d="m6 6 12 12"></path>
+                        </svg>
+                    </button>
+                </div>
+            </div>
+
+            <div class="mobile-menu glass-card" id="mobile-menu">
+                <div class="mobile-menu-inner">
+                    <button class="mobile-link" onclick="scrollToSection('#about')">About</button>
+                    <button class="mobile-link" onclick="scrollToSection('#characters')">Characters</button>
+                    <button class="mobile-link" onclick="scrollToSection('#doors')">Doors</button>
+                    <button class="mobile-link" onclick="scrollToSection('#gallery')">Gallery</button>
+                    <button class="mobile-link" onclick="scrollToSection('#quotes')">Quotes</button>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Hero Section -->
+        <section class="hero">
+            <div class="hero-bg" style="background-image: url('https://files.catbox.moe/1kpwar.png');"></div>
+            <div class="hero-overlay"></div>
+            <div class="particles" id="hero-particles"></div>
+            
+            <button class="scroll-btn" onclick="scrollToSection('#about')">
+                <svg class="scroll-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="m6 9 6 6 6-6"></path>
+                </svg>
+            </button>
+            
+            <div class="hero-bottom-gradient"></div>
+        </section>
+
+        <!-- About Section -->
+        <section class="about-section" id="about">
+            <div class="about-decoration" style="top: 5rem; right: 2.5rem; width: 128px; height: 128px; background: var(--accent); opacity: 0.2;"></div>
+            <div class="about-decoration" style="bottom: 5rem; left: 2.5rem; width: 160px; height: 160px; background: var(--lavender); opacity: 0.2;"></div>
+            
+            <div class="section-container scroll-animate">
+                <h2 class="section-title font-cinzel" style="color: hsl(340, 70%, 65%);">About the Story</h2>
+                
+                <div style="max-width: 48rem; margin: 0 auto; text-align: center;">
+                    <p style="font-size: 1.125rem; color: var(--foreground); opacity: 0.7; line-height: 1.8; margin-bottom: 1.5rem;">
+                        In a world where forgotten doors hold ancient disasters sealed within,
+                        a young girl named Suzume embarks on an unexpected journey across Japan.
+                    </p>
+                    
+                    <p style="font-size: 1.125rem; color: var(--foreground); opacity: 0.7; line-height: 1.8;">
+                        When she accidentally releases a catastrophic force, she must travel from town to town,
+                        closing magical doors before the world falls apart.
+                    </p>
+                </div>
+
+                <div class="themes-grid">
+                    <div class="theme-card glass-card">
+                        <div class="theme-icon">🌙</div>
+                        <div class="theme-name">Loss</div>
+                    </div>
+                    <div class="theme-card glass-card">
+                        <div class="theme-icon">🌸</div>
+                        <div class="theme-name">Healing</div>
+                    </div>
+                    <div class="theme-card glass-card">
+                        <div class="theme-icon">✨</div>
+                        <div class="theme-name">Memories</div>
+                    </div>
+                    <div class="theme-card glass-card">
+                        <div class="theme-icon">🕊️</div>
+                        <div class="theme-name">Letting Go</div>
+                    </div>
+                </div>
+
+                <p class="font-baskerville" style="text-align: center; font-size: 1.25rem; color: var(--accent-foreground); opacity: 0.6; margin-top: 4rem; font-style: italic;">
+                    "A story of loss, love, and the courage to move forward."
+                </p>
+            </div>
+        </section>
+
+        <!-- Characters Section -->
+        <section class="characters-section" id="characters">
+            <div style="position: absolute; top: 0; left: 0; width: 100%; height: 128px; background: linear-gradient(to bottom, hsla(340, 30%, 95%, 0.5), transparent);"></div>
+            <div style="position: absolute; bottom: 0; left: 0; width: 100%; height: 128px; background: linear-gradient(to top, hsla(270, 40%, 92%, 0.3), transparent);"></div>
+            
+            <div class="section-container scroll-animate">
+                <h2 class="section-title font-cormorant" style="color: hsl(45, 90%, 45%);">Characters</h2>
+                
+                <div class="characters-grid">
+                    <div class="character-card glass-card">
+                        <div class="character-image" onclick="openOverlay('https://files.catbox.moe/jsd0b6.jpg', 'Suzume Iwato')">
+                            <img src="https://files.catbox.moe/jsd0b6.jpg" alt="Suzume Iwato">
+                        </div>
+                        <div style="text-align: center;">
+                            <h3 class="character-name">Suzume Iwato</h3>
+                            <p class="character-japanese">岩戸鈴芽</p>
+                            <p class="character-desc">A brave 17-year-old girl who embarks on a journey to close the doors. Her determination and kindness light the way through darkness.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="character-card glass-card">
+                        <div class="character-image" onclick="openOverlay('https://files.catbox.moe/5m79jk.webp', 'Sōta Munakata')">
+                            <img src="https://files.catbox.moe/5m79jk.webp" alt="Sōta Munakata">
+                        </div>
+                        <div style="text-align: center;">
+                            <h3 class="character-name">Sōta Munakata</h3>
+                            <p class="character-japanese">宗像草太</p>
+                            <p class="character-desc">A mysterious "Closer" who travels Japan sealing supernatural doors. His fate becomes intertwined with Suzume's in unexpected ways.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="character-card glass-card">
+                        <div class="character-image" onclick="openOverlay('https://files.catbox.moe/bkelas.jpg', 'Chair Sōta')">
+                            <img src="https://files.catbox.moe/bkelas.jpg" alt="Chair Sōta">
+                        </div>
+                        <div style="text-align: center;">
+                            <h3 class="character-name">Chair Sōta</h3>
+                            <p class="character-japanese">椅子の草太</p>
+                            <p class="character-desc">When cursed to become a three-legged chair, Sōta's spirit persists. A symbol of resilience and the bonds that transcend form.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="character-card glass-card">
+                        <div class="character-image" onclick="openOverlay('https://files.catbox.moe/slcyus.webp', 'Daijin')">
+                            <img src="https://files.catbox.moe/slcyus.webp" alt="Daijin">
+                        </div>
+                        <div style="text-align: center;">
+                            <h3 class="character-name">Daijin</h3>
+                            <p class="character-japanese">ダイジン</p>
+                            <p class="character-desc">A mysterious white cat who holds the key to everything. Neither fully friend nor foe, Daijin guides the story forward.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Doors Section -->
+        <section class="doors-section" id="doors">
+            <div style="position: absolute; inset: 0;">
+                <div style="position: absolute; top: 25%; left: 25%; width: 256px; height: 256px; background: var(--golden); opacity: 0.1; border-radius: 50%; filter: blur(48px);" class="animate-float"></div>
+                <div style="position: absolute; bottom: 25%; right: 25%; width: 320px; height: 320px; background: var(--lavender); opacity: 0.1; border-radius: 50%; filter: blur(48px);" class="animate-float-slow"></div>
+            </div>
+            
+            <div class="section-container scroll-animate" style="position: relative; z-index: 10;">
+                <h2 class="section-title font-baskerville" style="color: hsl(270, 60%, 65%);">The Journey</h2>
+                <p style="text-align: center; font-size: 1.125rem; color: var(--foreground); opacity: 0.6; max-width: 42rem; margin: 0 auto 4rem;">
+                    Follow Suzume's path across Japan as she closes the doors to protect the world.
+                </p>
+                
+                <div class="doors-timeline">
+                    <div class="door-card-wrapper">
+                        <div class="door-card glass-card">
+                            <div class="door-image">
+                                <img src="https://images.unsplash.com/photo-1545569341-9eb8b30979d9?w=400&h=300&fit=crop" alt="Miyazaki">
+                                <div class="door-image-overlay"></div>
+                                <div class="door-location">
+                                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="hsl(45, 90%, 65%)" stroke-width="2"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+                                    <span style="font-size: 0.875rem; font-weight: 500;">Miyazaki</span>
+                                    <span style="font-size: 0.875rem; color: var(--muted-foreground);">宮崎県</span>
+                                </div>
+                            </div>
+                            <div class="door-content">
+                                <div style="display: flex; align-items: center; gap: 0.5rem; margin-bottom: 0.75rem;">
+                                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="var(--muted-foreground)" stroke-width="2"><path d="m12 3-1.912 5.813a2 2 0 0 1-1.275 1.275L3 12l5.813 1.912a2 2 0 0 1 1.275 1.275L12 21l1.912-5.813a2 2 0 0 1 1.275-1.275L21 12l-5.813-1.912a2 2 0 0 1-1.275-1.275L12 3Z"></path></svg>
+                                    <span style="font-size: 0.75rem; text-transform: uppercase; letter-spacing: 0.1em; color: var(--muted-foreground);">Memory 1</span>
+                                </div>
+                                <p class="door-memory">Where the journey begins. A ruined resort holds the first door, and the first step towards destiny.</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="door-card-wrapper">
+                        <div class="door-card glass-card">
+                            <div class="door-image">
+                                <img src="https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?w=400&h=300&fit=crop" alt="Ehime">
+                                <div class="door-image-overlay"></div>
+                                <div class="door-location">
+                                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="hsl(45, 90%, 65%)" stroke-width="2"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+                                    <span style="font-size: 0.875rem; font-weight: 500;">Ehime</span>
+                                    <span style="font-size: 0.875rem; color: var(--muted-foreground);">愛媛県</span>
+                                </div>
+                            </div>
+                            <div class="door-content">
+                                <div style="display: flex; align-items: center; gap: 0.5rem; margin-bottom: 0.75rem;">
+                                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="var(--muted-foreground)" stroke-width="2"><path d="m12 3-1.912 5.813a2 2 0 0 1-1.275 1.275L3 12l5.813 1.912a2 2 0 0 1 1.275 1.275L12 21l1.912-5.813a2 2 0 0 1 1.275-1.275L21 12l-5.813-1.912a2 2 0 0 1-1.275-1.275L12 3Z"></path></svg>
+                                    <span style="font-size: 0.75rem; text-transform: uppercase; letter-spacing: 0.1em; color: var(--muted-foreground);">Memory 2</span>
+                                </div>
+                                <p class="door-memory">Across the sea, an abandoned school echoes with the laughter of children who once played here.</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="door-card-wrapper">
+                        <div class="door-card glass-card">
+                            <div class="door-image">
+                                <img src="https://images.unsplash.com/photo-1480796927426-f609979314bd?w=400&h=300&fit=crop" alt="Kobe">
+                                <div class="door-image-overlay"></div>
+                                <div class="door-location">
+                                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="hsl(45, 90%, 65%)" stroke-width="2"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+                                    <span style="font-size: 0.875rem; font-weight: 500;">Kobe</span>
+                                    <span style="font-size: 0.875rem; color: var(--muted-foreground);">神戸市</span>
+                                </div>
+                            </div>
+                            <div class="door-content">
+                                <div style="display: flex; align-items: center; gap: 0.5rem; margin-bottom: 0.75rem;">
+                                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="var(--muted-foreground)" stroke-width="2"><path d="m12 3-1.912 5.813a2 2 0 0 1-1.275 1.275L3 12l5.813 1.912a2 2 0 0 1 1.275 1.275L12 21l1.912-5.813a2 2 0 0 1 1.275-1.275L21 12l-5.813-1.912a2 2 0 0 1-1.275-1.275L12 3Z"></path></svg>
+                                    <span style="font-size: 0.75rem; text-transform: uppercase; letter-spacing: 0.1em; color: var(--muted-foreground);">Memory 3</span>
+                                </div>
+                                <p class="door-memory">In the shadow of a ferris wheel, old wounds resurface. Some doors are harder to close than others.</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="door-card-wrapper">
+                        <div class="door-card glass-card">
+                            <div class="door-image">
+                                <img src="https://images.unsplash.com/photo-1540959733332-eab4deabeeaf?w=400&h=300&fit=crop" alt="Tokyo">
+                                <div class="door-image-overlay"></div>
+                                <div class="door-location">
+                                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="hsl(45, 90%, 65%)" stroke-width="2"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+                                    <span style="font-size: 0.875rem; font-weight: 500;">Tokyo</span>
+                                    <span style="font-size: 0.875rem; color: var(--muted-foreground);">東京都</span>
+                                </div>
+                            </div>
+                            <div class="door-content">
+                                <div style="display: flex; align-items: center; gap: 0.5rem; margin-bottom: 0.75rem;">
+                                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="var(--muted-foreground)" stroke-width="2"><path d="m12 3-1.912 5.813a2 2 0 0 1-1.275 1.275L3 12l5.813 1.912a2 2 0 0 1 1.275 1.275L12 21l1.912-5.813a2 2 0 0 1 1.275-1.275L21 12l-5.813-1.912a2 2 0 0 1-1.275-1.275L12 3Z"></path></svg>
+                                    <span style="font-size: 0.75rem; text-transform: uppercase; letter-spacing: 0.1em; color: var(--muted-foreground);">Memory 4</span>
+                                </div>
+                                <p class="door-memory">The final door. Where everything comes full circle, and the heart finds its way home.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <p class="font-cormorant" style="text-align: center; margin-top: 4rem; font-size: 1.25rem; color: var(--foreground); opacity: 0.5; font-style: italic;">
+                    "Close the doors to protect the world from the disasters within"
+                </p>
+            </div>
+        </section>
+
+        <!-- Gallery Section -->
+        <section class="gallery-section" id="gallery">
+            <div style="position: absolute; top: 0; left: 0; width: 100%; height: 192px; background: linear-gradient(to bottom, hsla(270, 40%, 92%, 0.2), transparent);"></div>
+            
+            <div class="section-container scroll-animate">
+                <h2 class="section-title font-josefin" style="color: hsl(199, 89%, 48%);">Gallery</h2>
+                <p style="text-align: center; color: var(--foreground); opacity: 0.6; max-width: 42rem; margin: 0 auto 4rem;">
+                    Moments frozen in time. The beauty of Suzume's journey captured in stills.
+                </p>
+                
+                <div class="gallery-grid">
+                    <div class="gallery-item" onclick="openOverlay('https://files.catbox.moe/zad3w7.jpg', 'The First Door')">
+                        <img src="https://files.catbox.moe/zad3w7.jpg" alt="The First Door">
+                        <div class="gallery-overlay">
+                            <span class="gallery-title">The First Door</span>
+                        </div>
+                    </div>
+                    <div class="gallery-item" onclick="openOverlay('https://files.catbox.moe/4vvv1m.webp', 'Journey Begins')">
+                        <img src="https://files.catbox.moe/4vvv1m.webp" alt="Journey Begins">
+                        <div class="gallery-overlay">
+                            <span class="gallery-title">Journey Begins</span>
+                        </div>
+                    </div>
+                    <div class="gallery-item" onclick="openOverlay('https://files.catbox.moe/2s60lz.webp', 'Across the Sea')">
+                        <img src="https://files.catbox.moe/2s60lz.webp" alt="Across the Sea">
+                        <div class="gallery-overlay">
+                            <span class="gallery-title">Across the Sea</span>
+                        </div>
+                    </div>
+                    <div class="gallery-item" onclick="openOverlay('https://files.catbox.moe/0fcyes.jpg', 'Sunset Chase')">
+                        <img src="https://files.catbox.moe/0fcyes.jpg" alt="Sunset Chase">
+                        <div class="gallery-overlay">
+                            <span class="gallery-title">Sunset Chase</span>
+                        </div>
+                    </div>
+                    <div class="gallery-item" onclick="openOverlay('https://files.catbox.moe/5dcpfz.webp', 'Starlit Night')">
+                        <img src="https://files.catbox.moe/5dcpfz.webp" alt="Starlit Night">
+                        <div class="gallery-overlay">
+                            <span class="gallery-title">Starlit Night</span>
+                        </div>
+                    </div>
+                    <div class="gallery-item" onclick="openOverlay('https://files.catbox.moe/mfhj2c.webp', 'Final Destination')">
+                        <img src="https://files.catbox.moe/mfhj2c.webp" alt="Final Destination">
+                        <div class="gallery-overlay">
+                            <span class="gallery-title">Final Destination</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Quotes Section -->
+        <section class="quotes-section" id="quotes">
+            <div class="particles" id="quotes-particles"></div>
+            <div style="position: absolute; top: 33%; left: 25%; width: 384px; height: 384px; background: var(--accent); opacity: 0.2; border-radius: 50%; filter: blur(48px);"></div>
+            <div style="position: absolute; bottom: 33%; right: 25%; width: 320px; height: 320px; background: var(--lavender); opacity: 0.2; border-radius: 50%; filter: blur(48px);"></div>
+            
+            <div class="section-container quotes-container scroll-animate">
+                <h2 class="section-title" style="font-family: 'Dancing Script', 'Playfair Display', serif; color: hsl(160, 60%, 45%); margin-bottom: 5rem;">Words from the Heart</h2>
+                
+                <div class="quote-block">
+                    <blockquote class="quote-text">
+                        <span class="quote-mark open">"</span>
+                        I'm going to close the doors, so that no one has to be sad anymore.
+                        <span class="quote-mark close">"</span>
+                    </blockquote>
+                    <p class="quote-author">— Suzume</p>
+                </div>
+                
+                <div class="quote-block">
+                    <blockquote class="quote-text">
+                        <span class="quote-mark open">"</span>
+                        The door is always open for those who have the courage to walk through.
+                        <span class="quote-mark close">"</span>
+                    </blockquote>
+                    <p class="quote-author">— Unknown</p>
+                </div>
+                
+                <div class="quote-block">
+                    <blockquote class="quote-text">
+                        <span class="quote-mark open">"</span>
+                        Even if we're far apart, we're still looking at the same sky.
+                        <span class="quote-mark close">"</span>
+                    </blockquote>
+                    <p class="quote-author">— Sōta</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer>
+            <div class="footer-container">
+                <div class="footer-door"></div>
+                
+                <h3 class="footer-title">すずめの戸締まり</h3>
+                <p class="footer-subtitle">Suzume no Tojimari</p>
+                
+                <div class="footer-divider">
+                    <div class="footer-line" style="background: linear-gradient(to right, transparent, var(--border));"></div>
+                    <svg class="footer-heart" viewBox="0 0 24 24" fill="currentColor" stroke="currentColor" stroke-width="2"><path d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z"></path></svg>
+                    <div class="footer-line" style="background: linear-gradient(to left, transparent, var(--border));"></div>
+                </div>
+                
+                <p class="footer-message">Made with love for fans of Makoto Shinkai's masterpiece</p>
+                
+                <p class="footer-disclaimer">
+                    This is a fan-made website created for educational and appreciation purposes only. 
+                    All rights, characters, and intellectual property belong to Makoto Shinkai, 
+                    CoMix Wave Films, and the original creators.
+                </p>
+                
+                <a href="https://github.com/Itz-Murali" target="_blank" rel="noopener noreferrer" class="github-link">
+                    <svg width="20" height="20" fill="currentColor" viewBox="0 0 24 24">
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z"/>
+                    </svg>
+                    <span>@Itz-Murali</span>
+                </a>
+                
+                <p class="footer-copyright">© 2026 Fan Tribute • Not affiliated with official production</p>
+            </div>
+        </footer>
+
+        <!-- Music Button -->
+        <button class="music-btn glass-card" onclick="toggleMusic()" aria-label="Toggle music">
+            <svg id="volume-on" class="music-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"></polygon>
+                <path d="M15.54 8.46a5 5 0 0 1 0 7.07"></path>
+                <path d="M19.07 4.93a10 10 0 0 1 0 14.14"></path>
+            </svg>
+            <svg id="volume-off" class="music-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="display: none;">
+                <polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"></polygon>
+                <line x1="22" x2="16" y1="9" y2="15"></line>
+                <line x1="16" x2="22" y1="9" y2="15"></line>
+            </svg>
+        </button>
+
+        <!-- Audio -->
+        <audio id="bgMusic" src="https://files.catbox.moe/733qsm.mp3" loop></audio>
+
+        <!-- Image Overlay -->
+        <div class="image-overlay" id="imageOverlay" onclick="closeOverlay()">
+            <button class="overlay-close" onclick="closeOverlay()">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M18 6 6 18"></path>
+                    <path d="m6 6 12 12"></path>
+                </svg>
+            </button>
+            <img id="overlayImage" class="overlay-image" src="" alt="" onclick="event.stopPropagation()">
+        </div>
+    </div>
+
+    <script>
+        // Preloader
+        let progress = 0;
+        const progressFill = document.getElementById('progress-fill');
+        const preloader = document.getElementById('preloader');
+        const mainContent = document.getElementById('main-content');
+
+        // Create preloader particles
+        const preloaderParticles = document.getElementById('preloader-particles');
+        for (let i = 0; i < 20; i++) {
+            const particle = document.createElement('div');
+            particle.className = 'particle';
+            particle.style.left = Math.random() * 100 + '%';
+            particle.style.top = Math.random() * 100 + '%';
+            particle.style.width = '4px';
+            particle.style.height = '4px';
+            particle.style.background = 'hsla(0, 0%, 100%, 0.3)';
+            particle.style.animationDelay = Math.random() * 4 + 's';
+            particle.style.animationDuration = (4 + Math.random() * 4) + 's';
+            preloaderParticles.appendChild(particle);
+        }
+
+        const preloaderInterval = setInterval(() => {
+            progress += Math.random() * 15 + 5;
+            if (progress >= 100) {
+                progress = 100;
+                progressFill.style.width = '100%';
+                clearInterval(preloaderInterval);
+                setTimeout(() => {
+                    preloader.classList.add('fade-out');
+                    mainContent.style.opacity = '1';
+                }, 300);
+            } else {
+                progressFill.style.width = progress + '%';
+            }
+        }, 150);
+
+        // Create particles
+        function createParticles(containerId, count = 30) {
+            const container = document.getElementById(containerId);
+            if (!container) return;
+            
+            for (let i = 0; i < count; i++) {
+                const particle = document.createElement('div');
+                particle.className = 'particle';
+                const size = Math.random() * 4 + 2;
+                const opacity = Math.random() * 0.5 + 0.3;
+                particle.style.left = Math.random() * 100 + '%';
+                particle.style.top = Math.random() * 100 + '%';
+                particle.style.width = size + 'px';
+                particle.style.height = size + 'px';
+                particle.style.background = `radial-gradient(circle, hsla(45, 90%, 70%, ${opacity}) 0%, transparent 70%)`;
+                particle.style.animationDuration = (Math.random() * 4 + 4) + 's';
+                particle.style.animationDelay = (Math.random() * 5) + 's';
+                particle.style.filter = 'blur(0.5px)';
+                container.appendChild(particle);
+            }
+        }
+
+        createParticles('hero-particles');
+        createParticles('quotes-particles');
+
+        // Theme Toggle
+        let isDark = false;
+
+        function toggleTheme() {
+            isDark = !isDark;
+            document.body.classList.toggle('dark', isDark);
+            document.body.classList.toggle('light', !isDark);
+            
+            // Update toggle icons
+            document.querySelectorAll('.theme-toggle-circle').forEach(circle => {
+                const sunIcon = circle.querySelector('.sun-icon');
+                const moonIcon = circle.querySelector('.moon-icon');
+                if (sunIcon && moonIcon) {
+                    sunIcon.style.display = isDark ? 'none' : 'block';
+                    moonIcon.style.display = isDark ? 'block' : 'none';
+                }
+            });
+        }
+
+        // Navigation
+        let isScrolled = false;
+        const navigation = document.getElementById('navigation');
+
+        window.addEventListener('scroll', () => {
+            const scrolled = window.scrollY > 50;
+            if (scrolled !== isScrolled) {
+                isScrolled = scrolled;
+                if (isScrolled) {
+                    navigation.classList.add('scrolled', 'glass-card');
+                } else {
+                    navigation.classList.remove('scrolled', 'glass-card');
+                }
+            }
+            
+            // Scroll animations
+            document.querySelectorAll('.scroll-animate').forEach(el => {
+                const rect = el.getBoundingClientRect();
+                if (rect.top < window.innerHeight * 0.8) {
+                    el.classList.add('visible');
+                }
+            });
+        });
+
+        function scrollToTop() {
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        }
+
+        function scrollToSection(selector) {
+            const element = document.querySelector(selector);
+            if (element) {
+                element.scrollIntoView({ behavior: 'smooth' });
+                closeMobileMenu();
+            }
+        }
+
+        // Mobile Menu
+        let mobileMenuOpen = false;
+        const mobileMenu = document.getElementById('mobile-menu');
+        const menuIcon = document.getElementById('menu-icon');
+        const closeIcon = document.getElementById('close-icon');
+
+        function toggleMobileMenu() {
+            mobileMenuOpen = !mobileMenuOpen;
+            mobileMenu.classList.toggle('open', mobileMenuOpen);
+            menuIcon.style.display = mobileMenuOpen ? 'none' : 'block';
+            closeIcon.style.display = mobileMenuOpen ? 'block' : 'none';
+        }
+
+        function closeMobileMenu() {
+            mobileMenuOpen = false;
+            mobileMenu.classList.remove('open');
+            menuIcon.style.display = 'block';
+            closeIcon.style.display = 'none';
+        }
+
+        // Music
+        let isMuted = false;
+        let hasInteracted = false;
+        const bgMusic = document.getElementById('bgMusic');
+        const volumeOn = document.getElementById('volume-on');
+        const volumeOff = document.getElementById('volume-off');
+
+        function toggleMusic() {
+            isMuted = !isMuted;
+            bgMusic.muted = isMuted;
+            volumeOn.style.display = isMuted ? 'none' : 'block';
+            volumeOff.style.display = isMuted ? 'block' : 'none';
+        }
+
+        function startMusic() {
+            if (!hasInteracted) {
+                bgMusic.play().catch(() => {});
+                hasInteracted = true;
+            }
+        }
+
+        document.addEventListener('click', startMusic, { once: true });
+        document.addEventListener('scroll', startMusic, { once: true });
+
+        // Image Overlay
+        const imageOverlay = document.getElementById('imageOverlay');
+        const overlayImage = document.getElementById('overlayImage');
+
+        function openOverlay(src, alt) {
+            overlayImage.src = src;
+            overlayImage.alt = alt;
+            imageOverlay.classList.add('active');
+            document.body.style.overflow = 'hidden';
+        }
+
+        function closeOverlay() {
+            imageOverlay.classList.remove('active');
+            document.body.style.overflow = '';
+        }
+
+        document.addEventListener('keydown', (e) => {
+            if (e.key === 'Escape') closeOverlay();
+        });
+
+        // Hide mobile toggle on desktop
+        function checkMobile() {
+            const mobileControls = document.querySelector('.mobile-controls');
+            const navLinks = document.querySelector('.nav-links');
+            if (window.innerWidth >= 768) {
+                mobileControls.querySelector('.mobile-menu-btn').style.display = 'none';
+                mobileControls.querySelector('.theme-toggle').style.display = 'none';
+                navLinks.style.display = 'flex';
+                mobileMenu.style.display = 'none';
+            } else {
+                mobileControls.querySelector('.mobile-menu-btn').style.display = 'flex';
+                mobileControls.querySelector('.theme-toggle').style.display = 'block';
+                navLinks.style.display = 'none';
+                mobileMenu.style.display = 'block';
+            }
+        }
+
+        window.addEventListener('resize', checkMobile);
+        checkMobile();
+    </script>
+</body>
+</html>
