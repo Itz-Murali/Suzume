@@ -957,6 +957,7 @@
         }
     </style>
 </head>
+<audio id="bg-music" src="https://files.catbox.moe/733qsm.mp3" preload="auto"></audio>
 <body class="light">
     <!-- Preloader -->
     <div class="preloader" id="preloader">
@@ -1382,24 +1383,7 @@
             </div>
         </footer>
 
-        <!-- Music Button -->
-        <button class="music-btn glass-card" onclick="toggleMusic()" aria-label="Toggle music">
-            <svg id="volume-on" class="music-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                <polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"></polygon>
-                <path d="M15.54 8.46a5 5 0 0 1 0 7.07"></path>
-                <path d="M19.07 4.93a10 10 0 0 1 0 14.14"></path>
-            </svg>
-            <svg id="volume-off" class="music-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="display: none;">
-                <polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"></polygon>
-                <line x1="22" x2="16" y1="9" y2="15"></line>
-                <line x1="16" x2="22" y1="9" y2="15"></line>
-            </svg>
-        </button>
 
-        <!-- Audio -->
-        <audio id="bgMusic" src="https://files.catbox.moe/733qsm.mp3" loop></audio>
-
-        <!-- Image Overlay -->
         <div class="image-overlay" id="imageOverlay" onclick="closeOverlay()">
             <button class="overlay-close" onclick="closeOverlay()">
                 <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
@@ -1548,31 +1532,7 @@
             closeIcon.style.display = 'none';
         }
 
-        // Music
-        let isMuted = false;
-        let hasInteracted = false;
-        const bgMusic = document.getElementById('bgMusic');
-        const volumeOn = document.getElementById('volume-on');
-        const volumeOff = document.getElementById('volume-off');
 
-        function toggleMusic() {
-            isMuted = !isMuted;
-            bgMusic.muted = isMuted;
-            volumeOn.style.display = isMuted ? 'none' : 'block';
-            volumeOff.style.display = isMuted ? 'block' : 'none';
-        }
-
-        function startMusic() {
-            if (!hasInteracted) {
-                bgMusic.play().catch(() => {});
-                hasInteracted = true;
-            }
-        }
-
-        document.addEventListener('click', startMusic, { once: true });
-        document.addEventListener('scroll', startMusic, { once: true });
-
-        // Image Overlay
         const imageOverlay = document.getElementById('imageOverlay');
         const overlayImage = document.getElementById('overlayImage');
 
@@ -1612,5 +1572,36 @@
         window.addEventListener('resize', checkMobile);
         checkMobile();
     </script>
+    <script>
+    const audio = document.getElementById("bg-music");
+    let isPlaying = false;
+
+    function playMusic() {
+      if (isPlaying || !audio.paused) return;
+
+      audio.play().then(() => {
+        isPlaying = true;
+        console.log("Music started");
+      }).catch(() => {
+        
+      });
+    }
+
+    
+    window.addEventListener("load", playMusic);
+    ["click", "scroll", "touchstart", "mousemove"].forEach(event => {
+      window.addEventListener(event, playMusic, { once: false });
+    });
+
+
+    audio.addEventListener("pause", () => {
+      isPlaying = false;
+    });
+
+    audio.addEventListener("play", () => {
+      isPlaying = true;
+    });
+  </script>
+  
 </body>
 </html>
