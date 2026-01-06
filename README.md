@@ -12,8 +12,7 @@ This project is created as a tribute to the themes of doors, memories, healing, 
 ## 🌌 About the Project
 
 This website is a **fan-made tribute** inspired by the movie *Suzume*.  
-It focuses on:
-- Emotional storytelling  
+It focuses on:  
 - Dreamy & cinematic UI  
 - Soft animations and smooth scrolling  
 - Clean, minimal, and aesthetic design  
