@@ -1,7 +1,7 @@
 # 🌸 Suzume — Movie Fan Page
 
 <p align="center">
-  <img src="https://files.catbox.moe/69d6l5.jpg" alt="Suzume Fan Page Banner" width="100%">
+  <img src="q.jpg" alt="Suzume Fan Page Banner" width="100%">
 </p>
 
 A cinematic, emotional, and fan-made website inspired by the anime movie **Suzume**.  
